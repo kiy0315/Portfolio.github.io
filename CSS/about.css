@@ -1,0 +1,27 @@
+.about{
+  margin-bottom: 30px;
+}
+.about-content {
+  display: flex;  
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.about-content .column {
+  flex-basis: 50%;
+}
+.about-content .right {
+  padding-left: 20px;
+}
+
+.about-content img {
+  width: 100%; 
+  max-width: 230px; 
+  border-radius: 10px;  
+}
+
+.about-text {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
